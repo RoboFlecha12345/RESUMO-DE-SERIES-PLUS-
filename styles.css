@@ -1,0 +1,38 @@
+body {
+    /* Fundo preto (background: black) com cor de texto 
+       CLARA (color: white) garante contraste.
+    */
+    background-color: black;
+    color: white; /* Cor do texto será branco */
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilo para o cabeçalho superior */
+header {
+    background-color: #ffc107; /* Fundo Amarelo (Breaking Bad) */
+    color: #333; /* Texto cinza escuro para contraste */
+    padding: 20px;
+    text-align: center;
+    font-size: 2.5em;
+    font-weight: bold;
+}
+
+/* Estilo para o título H1 */
+h1 {
+    /* Cor do texto vermelho escuro que você queria */
+    color: rgb(173, 6, 6); 
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+
+/* Estilo para a tag "#Séries" */
+.tag-serie {
+    color: #a0a0a0; /* Cinza claro */
+    text-align: center;
+    font-style: italic;
+    display: block; /* Garante que fique em uma linha própria */
+    margin-bottom: 20px;
+}
